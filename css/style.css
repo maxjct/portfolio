@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+padding-bottom: 6rem;
+min-height: 100%;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+hr {
+	margin-left: 60px;
+	margin-right: 60px;
+	border: 1px solid grey;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Navigation */
+nav a {
+	color:black;
+}
+
+nav a:visited {
+	color:black;
+}
+
+nav a:hover {
+	color:black;
+	text-decoration: underline;
+}
+/* Navigation */
+
+
+
+p {
+	margin:0;
+}
+
+h4 {
+	font-size:24px;
+	color:#FAFAFA;
+}
+
+li {
+	display:inline;
+	font-size:20px;
+	font-weight: 600;
+}
+
+
+nav {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top:20px;
+}
+
+ol {
+	margin-top:20px;
+}
+
+li:nth-child(2){
+	margin-left:60px;
+	margin-right:60px;
+}
+
+nav p {
+	font-size:20px;
+	font-weight:700;
+}
+
+
+.iphonex-resize{
+	max-width: 200px;
+	height:auto;
+}
+
+.profile {
+	width:300px;
+	margin-top:30px;
+	height: auto;
+}
+
+.profile-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+.about-me-text {
+	max-width:500px;
+	margin-top:40px;
+	margin-bottom:50px;
+}
+
+.about-me-text p {
+	font-size:16px;
+	margin-top:32px;
+	font-style: 'Raleway';
+	font-weight: 500;
+	max-width: 700px;
+}
+
+.about-me-text h2{
+	max-width:460px;
+	font-size:50px;
+	font-style: 'Raleway';
+	font-weight: 700;
+}
+
+.about-me-text h3{
+	max-width:460px;
+	font-size:40px;
+	font-style: 'Raleway';
+	font-weight: 700;
+}
+
+.max-email {
+	margin-top:40px;
+}
+
+.orange	{
+	color:#E99587;
+}
+
+.orange:hover {
+	text-decoration: underline;
+}
+
+.about-me-flex {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+.black-background {
+	background-image: linear-gradient(to bottom, #282828, #121212);
+}
+
+
+
+/*Intro Text */
+
+.intro-background {
+	min-height:700px;
+	background-color:
+}
+
+.intro{
+	padding-top:100px;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+}
+
+.intro h1 {
+	font-weight:700;
+	font-size:40px;
+	color: #3F3F3F;
+}
+
+.intro-text-box{
+	max-width:1000px;
+	padding-top: 30px;
+}
+
+.intro p {
+	font-size:28px;
+	padding-top: 10px;
+}
+
+.intro_name {
+	color: #E99587;
+}
+
+.intro_name:hover {
+	text-decoration: underline;
+}
+
+/*Intro Text */
+
+
+
+/*First Project */
+
+
+.white-background{
+	height:300px;
+	background-color:#FAFAFA;
+	overflow:hidden;
+	display:none;
+}
+
+.desktopui{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	margin-top:50px;
+	margin-bottom:34px;
+}
+.desktopui-resize{
+	width:100%;
+	max-width:400px;
+	height:auto;
+}
+
+.nuffield-resize{
+	width:100%;
+	max-width:400px;
+	height:auto;
+}
+
+.gold-divider{
+	width: 64px;
+	height: 4px;
+	background-color: #4F95F0;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+.project-text h2{
+	font-weight: bold;
+	text-align:center;
+	font-size:48px;
+	margin-bottom:14px;
+	color:#3D3D3D;
+}
+
+.project-description {
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	margin:auto;
+	width:240px;
+}
+
+.project-description p {
+	text-align:center;
+	color:#ADADAD;
+	margin-bottom:36px;
+}
+
+
+.CTA-button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width:150px;
+    height:10px;
+    padding-top:18px;
+    padding-bottom:18px;
+    background:#E99587;
+    font-size:15px;
+    border-radius:100px;
+    margin-bottom:70px;
+		font-weight: 500;
+}
+
+.CTA-button p {
+	display:block;
+	color:#FAFAFA;
+}
+
+.tablet-desktopui{
+	display:none;
+}
+
+
+.black-background .project-2{
+	margin-top:200px;
+}
+
+
+.dailies {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.phones-resized{
+	margin-top:69px;
+	width:194px;
+	height:auto;
+}
+
+.phone-resized{
+	margin-top:69px;
+	width:194px;
+	height:auto;
+}
+
+.white h2 {
+	color:#FAFAFA;
+}
+.white {
+	color:#FAFAFA;
+}
+
+.project2-photo {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:34px;
+}
+
+.project2-photo-2{
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom:34px;
+}
+
+
+
+
+.footer {
+	height:100px;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -40px;
+	position: absolute;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   padding: 1rem;
+}
+
+.footer-right {
+	display: flex;
+}
+
+.footer-right a {
+	color:#3D3D3D;
+}
+
+.footer-right a:visited {
+	color:#3D3D3D;
+}
+
+.email {
+	display: flex;
+}
+
+.footer-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen  and (min-width : 768px) {
+/* Styles */
+
+.phones-resized{
+	margin-top:0;
+	margin-right:50px;
+}
+
+.phone-resized{
+	margin-top:0;
+	margin-right:50px;
+}
+
+
+.portfolio-margin {
+	margin-top:90px;
+	margin-bottom:90px;
+}
+
+.portfolio-padding {
+	padding-top:90px;
+	padding-bottom:90px;
+}
+
+.desktopui{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.intro h1 {
+	font-size:60px;
+}
+
+
+.desktopui-resize{
+	max-width:none;
+	width:358px;
+	height:auto;
+
+}
+
+.project-box{
+	margin-left:454px;
+}
+
+
+.project-text h2{
+	text-align:left;
+	font-size:36px;
+}
+
+.project-description {
+	margin:0;
+	max-width:185px;
+}
+.project-description p{
+	text-align:left;
+	font-size:14px;
+}
+
+.CTA-button {
+	margin:0;
+}
+
+.desktopui{
+	display:block;
+	float:left;
+	margin:none;
+
+}
+
+
+.mobileui {
+	float:left;
+	margin-left:90px;
+	margin-top:40px;
+}
+
+
+.project2-photo {
+	display:block;
+	float:left;
+}
+
+.project2-photo-2{
+	display:block;
+	float:right;
+}
+
+
+.posters {
+	margin-top: -260px;
+}
+
+}
+
+@media only screen  and (min-width : 900px) {
+
+.phones-resized {
+	margin-right:180px;
+}
+
+.phone-resized {
+	margin-right:180px;
+}
+
+}
+
+@media only screen  and (min-width : 1024px) {
+
+.profile {
+	width:350px;
+	margin-top:30px;
+	height: auto;
+}
+
+
+
+.about-me-flex {
+	display:flex;
+	flex-direction: row;
+	width:1000px;
+	align-items: center;
+	margin:auto;
+	justify-content: center;
+	margin-top:50px;
+	margin-bottom:150px;
+}
+
+.about-me-text {
+	margin-bottom:0;
+}
+
+.desktopui-resize {
+	width:548px;
+}
+.folios{
+	margin-left:640px;
+	padding-top:60px;
+}
+
+.folios{
+	padding-top:90px;
+}
+
+
+.project-description {
+	width:260px;
+	max-width: none;
+}
+
+
+.project-description p{
+	font-size:16px;
+}
+
+
+}
+
+@media only screen  and (min-width : 1200px) {
+
+
+nav {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+li:nth-child(2){
+	margin-left:40px;
+	margin-right:40px;
+}
+
+.mobileui {
+	margin-top:141px;
+}
+
+.phones-resized {
+	width:344px;
+}
+
+.phone-resized {
+	width:250px;
+}
+
+.black-background {
+	height:640px;
+}
+
+.connector {
+	margin-top:290px;
+	height:120px;
+	left:50vw;
+}
+
+.lines2 {
+	margin-top:270px;
+}
+
+.desktopui-resize{
+	width:730px;
+	margin-left:-120px;
+}
+
+.folios {
+	margin-left:72%;
+	padding-top:140px;
+}
+.print-work {
+	margin-left:72%;
+}
+
+
+}
